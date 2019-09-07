@@ -1,0 +1,45 @@
+{
+  "name": "repocoin-be",
+  "version": "1.0.0",
+  "description": "repoCoin Backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/repocoin/repocoin-be.git"
+  },
+  "author": "RepoCoin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/repocoin/repocoin-be/issues"
+  },
+  "homepage": "https://gitlab.com/repocoin/repocoin-be#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "compression": "^1.7.4",
+    "config": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.0",
+    "gravatar": "^1.8.0",
+    "i18n": "^0.8.3",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5",
+    "params": "^0.1.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "sequelize": "^5.8.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
